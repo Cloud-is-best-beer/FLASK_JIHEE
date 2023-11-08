@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+   <body>
+      
+      {% for key, value in result.items() %}
+         <tr>
+            <th> {{key}} : {{value}} </th>
+         </tr>
+         
+      {% endfor %}
+
+      <a href = "/logout"> 로그아웃 </a>
+
+
+      <hr>
+      <input type = "submit" value = "게시글" /><br>
+
+   </body>
+</html>
