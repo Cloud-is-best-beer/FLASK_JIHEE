@@ -7,5 +7,8 @@
 >
 
 # DB
+> ** 설치해야하는 확장 프로그램
+> SQLite, SQLite3 Editor
+
 > ** 데이터베이스가 오류날 시
 > db.py , db1.py 실행하여 DB생성 후 실행버튼 클릭
